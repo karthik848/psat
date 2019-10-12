@@ -1,0 +1,17 @@
+r=[]
+n=int(input("Enter the limit"))
+print("Enter the array")
+for i in range(n):
+    a=int(input())
+    r.append(a)
+for i in range(0,n-1):
+    m=a[i]
+    pos=i
+    for j in range(i,l):
+        if m>a[j] :
+            m=a[j]
+            pos=j
+            t=a[j]
+            a[j]=a[pos]
+            a[pos]=t
+
